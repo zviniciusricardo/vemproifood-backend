@@ -5,6 +5,31 @@
 
 </div>
 
+### Backlog
+
+- [ ] Sprint 1
+  - [ ] Pensar em um Gateway API para tratar os dados da requisição
+  - [ ] A requisição irá ser tratada de acordo com o input dos dados "(lat, long)" ou "cidade"
+  - [ ] Ao validar os dados, teremos uma indireção
+    - [ ] Criaremos uma pilha que servirá como cash e ficará na memória em tempo de execução
+    - [ ] Toda requisição é adicionada à uma pilha que tem um tamanho definido
+    - [ ] Caso a próxima requisição exista na pilha:
+      - [ ] Direcionamos direto para o microsserviço de playlists musicais
+    - [ ] Caso não:
+      - [ ] Direcionamos para a API de consulta do clima 
+
+### Resources
+- [Geolocation Theory](https://sciencing.com/convert-distances-degrees-meters-7858322.html)
+- [Right Assention Calculator](https://sciencing.com/calculate-longitude-right-ascension-6742230.html)
+
+![Brazillian Frontiers](src/main/resources/readme-resources/brazillian-frontiers.png "Brazillian Frontiers")
+      
+    // Brazil's boundaries
+    
+    MAX_LONGITUDE = 73°59'32" -----> MIN-LONGITUDE = 34°47'30"
+    MAX_LATITUDE = 33º45'03"  -----> MAX_LATITUDE = 5º16'20"
+
+### Usefull links
 * [Source Repo](https://github.com/ifood/vemproifood-backend)
 * [Forked Repo](https://github.com/zviniciusricardo/vemproifood-backend)
 * [Quarkus platform](https://code.quarkus.io/)
@@ -14,12 +39,7 @@
 
 ## Quarkus/Kotlin project
 
-The following project was created for experimenting these new technologies: 
-Quarkus and Kotlin with another cool tech stuff.
-This journey is part of the Paula Santana's mentorship and will lead me (at
-least I'm expecting it does) to far away places.
-The subsequent project's intent is to focus on building a microsservice that
-be fast, scaleable, secure and resilient.
+This project
 
 ## Project build scripts
 
