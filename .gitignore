@@ -191,8 +191,6 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-# JDT-specific (Eclipse Java Development Tools)
+# Media resources
+src/main/resources/readme-resources
 
-# End of https://www.toptal.com/developers/gitignore/api/kotlin,java,gradle,maven,intellij+all
